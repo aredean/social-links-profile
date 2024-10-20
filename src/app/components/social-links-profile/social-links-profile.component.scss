@@ -1,0 +1,83 @@
+* {
+    color : #FFFFFF;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 375px) {
+    .social-container {
+        padding: 24px !important;
+        max-width: 327px !important;
+        min-width: 327px !important;
+    }
+}
+
+.social-container {
+    // border : solid 1px black;
+    background-color: #1F1F1F;
+    text-align: center;
+    min-width: 384px;
+    max-width: 384px;
+    padding-inline: 40px;
+    padding-top : 40px;
+    padding-bottom: 42px;
+    border-radius : 10px;
+}
+
+.social-profile {
+    display: grid;
+    gap: 26px;
+}
+
+.social-profile-avatar {
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.social-profile-content {
+    display: grid;
+    // gap : 8px;
+    // line-height: 120%;
+}
+
+.social-profile-content-name {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.social-profile-content-location {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    color: hsl(75, 94%, 57%);
+}
+
+.social-profile-content-quote {
+    font-size: 14px;
+    font-weight: 400;
+    // line-height: 120%;
+}
+
+.social-links {
+    margin-top : 26px;
+    display: grid;
+    gap: 16px;
+    font-size: 14px;
+
+    a {
+        width: 100%;
+        padding : 12px;
+        background-color: #333333;
+        border-radius: 10px;
+    }
+
+    a:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: #333333;
+    }
+
+}
